@@ -153,10 +153,12 @@ class SimpleNeuralNetwork:
         # Output layer gradient ()
         # Assuming mean squared error loss
         dZ3 = self.output - Y  # (batch_size, output_size)
-
-
+        
 
         ########### YOUR CODE HERE ############
+        # Formula for mean squared error mse = np.mean((y - y_pred)**2)
+        mse = np.mean((Y - self.output)**2)
+        
         dX=0
         dA1=0
         dA2=0
