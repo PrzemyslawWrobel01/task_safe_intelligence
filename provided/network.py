@@ -154,7 +154,12 @@ class SimpleNeuralNetwork:
         # Assuming mean squared error loss
         dZ3 = self.output - Y  # (batch_size, output_size)
 
+
+
         ########### YOUR CODE HERE ############
+        dX=0
+        dA1=0
+        dA2=0
 
         pass
 
@@ -165,6 +170,6 @@ class SimpleNeuralNetwork:
         self.b2 -= 0
         self.W1 -= 0
         self.b1 -= 0
-
+        return (dX,dA1,dA2,dZ3)
         ########### END YOUR CODE  ############
 
