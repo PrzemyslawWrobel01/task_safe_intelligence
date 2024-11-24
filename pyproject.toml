@@ -17,6 +17,7 @@ pandas = "*"
 torch = "~2.2"
 tdqm = "*"
 einops = "*"
+multiprocess = "^0.70.17"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"
