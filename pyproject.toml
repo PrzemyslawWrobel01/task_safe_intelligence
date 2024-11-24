@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "gradient-eval-task"
+version = "0.1.0"
+description = ""
+authors = ["DanielSCrouch <d_crouch@outlook.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "provided" },
+]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+numpy = "<2.0"
+psutil = "*"
+pandas = "*"
+torch = "~2.2"
+tdqm = "*"
+einops = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
