@@ -23,6 +23,18 @@
    - If more time were allocated, I would continue researching and implement the correct gradient calculation process for backpropagation.
 
 ---
+## **Additonal Setup**
+Please follow below steps to install additional libraries used:
+
+1. Install multiprocess library using `pip`:
+```bash
+ pip install multiprocess
+ ```
+2. Add additonal packages:
+```bash
+poetry add multiprocess
+```
+---
 
 *I used AI to correct the spelling and grammar of the written text.*
 
